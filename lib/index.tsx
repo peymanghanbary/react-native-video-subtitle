@@ -1,12 +1,11 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { Text, View } from 'react-native';
 
-import { SubtitleDataType, SubtitlesProps, SubtitleType } from '@src/libs/SubtitlePlayer/lib/types';
+import { SubtitleDataType, SubtitlesProps, SubtitleType } from './types';
 
 import subtitleParser from './utils/subtitleParser';
 import styles from './styles';
 
-// eslint-disable-next-line react/function-component-definition
 const SubtitlePlayer: React.FC<SubtitlesProps> = ({
 	subtitle,
 	currentTime,
