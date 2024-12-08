@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { Text, View } from 'react-native';
 
-import { SubtitleDataType, SubtitlesProps, SubtitleType } from '@src/libs/SubtitlePlayer/lib/types';
+import { SubtitleDataType, SubtitlesProps, SubtitleType } from '../lib/types';
 
 import subtitleParser from './utils/subtitleParser';
 import styles from './styles';

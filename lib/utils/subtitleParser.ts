@@ -6,7 +6,7 @@ import {
 	SrtParserSubtitleType,
 	SubtitleType,
 	VttToJsonSubtitleType,
-} from '@src/libs/SubtitlePlayer/lib/types';
+} from '../types';
 
 const { default: SrtParser } = require('srt-parser-2');
 
